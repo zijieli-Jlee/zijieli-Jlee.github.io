@@ -27,7 +27,7 @@
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:zijieli@andrew.cmu.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Zijie_CV_2023_Oct.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/Zijie_CV_2023_Nov.pdf">CV (last update November 2023)</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=ji7TXTMAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/zijieli-Jlee/">Github</a>
                 </p>
@@ -37,21 +37,34 @@
               </td>
             </tr>
           </tbody></table>
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in learning for physics simulation spans from particle-based dynamics to Eulerian fluid simulation </span>.
+                  I'm interested in deep learning for physics simulation spans from particle-based dynamics to Eulerian fluid simulation. In particular, how can we tweak popular
+                popular neural network architecture such as graph neural network and Transformer using the insights and lessons from numerical solvers to make them better suited for specific simulation tasks.</span>
                 </p>
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <h2>Publication</h2>
+              <p>
+                (* denotes equal contribution)
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
-            <td style="padding:20px;width:40%;vertical-align:middle"><img src="images/FactFormer-Schematic.png" width="256" height="64"></td>
-            <td width="60%" valign="middle">
+            <td style="padding:10px;width:50%;vertical-align:middle"><img src="images/FactFormer-Schematic.png" width="512" height="96"></td>
+            <td width="50%" valign="middle">
               <a href="https://arxiv.org/abs/2305.17560">
                 <span class="papertitle">Scalable Transformer for PDE Surrogate Modeling</span>
               </a>
@@ -61,13 +74,97 @@
             Amir Barati Farimani,
 
               <br>
-              <em>NeurIPS<em>, 2023
+              <em>NeurIPS poster<em>, 2023
               <br>
               <a href="https://github.com/BaratiLab/FactFormer">code</a>
               <br>
               <p>
               In this paper we propose a axial factorized attention scheme to improve 
               the scalability of Transformer on multi-dimensional PDE problems.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:10px;width:50%;vertical-align:middle"><img src="images/Schematic-OFormer.png" width="512" height="192"></td>
+            <td width="50%" valign="middle">
+              <a href="https://openreview.net/forum?id=EPPqt3uERT&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)">
+                <span class="papertitle">Transformer for Partial Differential Equations’ Operator Learning                </span>
+              </a>
+              <br>
+            <strong>Zijie Li</strong>,
+            Kazem Meidani,
+            Amir Barati Farimani,
+
+              <br>
+              <em>Transaction on Machine Learning Research
+              <br>
+              <a href="https://github.com/BaratiLab/OFormer">code</a>
+              <br>
+              <p>
+              In this paper we propose and study a Transformer encoder-decoder structure that is capable of adapting to different types of discretization.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:10px;width:50%;vertical-align:middle"><img src="images/diffusion_sample.gif" width="512" height="150"></td>
+            <td width="50%" valign="middle">
+              <a href="https://www.sciencedirect.com/science/article/pii/S0021999123000670">
+                <span class="papertitle">A physics-informed diffusion model for high-fidelity flow field reconstruction  </span>
+              </a>
+              <br>
+            Dule Shu*,
+            <strong>Zijie Li*</strong>,
+            Amir Barati Farimani,
+
+              <br>
+              <em>Journal of Computational Physics
+              <br>
+              <a href="https://github.com/BaratiLab/Diffusion-based-Fluid-Super-resolution">code</a>
+              <br>
+              <p>
+              We investigate the use of diffusion model for high-fidelity flow field reconstruction. We also propose to incoorprate residual information into the backward diffusion process.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:40px;width:50%;vertical-align:middle"><img src="images/project_moca.png" width="280" height="200"></td>
+            <td width="50%" valign="middle">
+              <a href="https://openreview.net/pdf?id=lY0-7bj0Vfz">
+                <span class="papertitle">Prototype memory and attention mechanism for few-shot image generation </span>
+              </a>
+              <br>
+              Tianqin Li*, <strong>Zijie Li*</strong>, Andrew Luo, Harold Rockwell, Amir Barati Farimani, Tai Sing Lee.
+
+              <br>
+              <em>ICLR poster, 2022
+              <br>
+              <a href="https://github.com/Crazy-Jack/MoCA_release">code</a>
+              <br>
+              <p>
+              We propose an memory mechanism to augment the few-shot image generation task, where internal feature maps inside the Generator are modulated by attending with feature vectors stored in the memory bank.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:50px;width:50%;vertical-align:middle"><img src="images/project_TPUGAN.png" width="280" height="200"></td>
+            <td width="50%" valign="middle">
+              <a href="https://openreview.net/forum?id=FEBFJ98FKx">
+                <span class="papertitle">TPU-GAN: Learning temporal coherence from dynamic point cloud sequences  </span>
+              </a>
+              <br>
+              <strong>Zijie Li</strong>, Tianqin Li, Amir Barati Farimani.
+
+              <br>
+              <em>ICLR poster, 2022
+              <br>
+              <a href="https://github.com/zijieli-Jlee/Temporal-Pointcloud-Upsampling-GAN">code</a>
+              <br>
+              <p>
+                We propose a GAN architecture to learn the temporal coherence from dynamic point cloud sequences, which is capable of generating coherent point cloud motion.
               </p>
             </td>
           </tr>
