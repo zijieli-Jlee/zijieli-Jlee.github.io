@@ -9,7 +9,7 @@ export const personalInfo = {
   cv: "/data/Zijie_CV_2026MAY.pdf",
   profilePicture: "/profile.jpg",
   heroDescription:
-    "I work on generative modeling for image generation, with a focus on building stronger visual generation systems with enhanced multimodal capabilities. My recent work explores unified text-image generation and understanding, with earlier research connecting numerical solvers, graph networks, and operator learning for physics prediction.",
+    "I work on generative modeling for image generation at ByteDance Seed. My recent work explores unified text-image generation and understanding, with earlier research connecting numerical solvers, graph networks, and operator learning for physics prediction.",
 };
 
 export const workExperience = [
@@ -29,7 +29,7 @@ export const workExperience = [
     period: "Summer 2024",
     achievements: [
       "Research on unified text/image generation with a single diffusion model.",
-      "Developed experiments that later informed Dual Diffusion for unified image generation and understanding.",
+      "Developed Dual Diffusion for unified image generation and understanding, one of the very first multimodal masked language models with image generation capability.",
     ],
   },
   {
@@ -38,9 +38,8 @@ export const workExperience = [
     position: "PhD",
     period: "2020 - 2025",
     achievements: [
-      "Designed neural surrogate models for PDEs, fluid dynamics, molecular dynamics, and point-cloud motion.",
-      "Built Transformer and graph-network architectures informed by numerical simulation structure.",
-      "Published peer-reviewed work at CVPR, NeurIPS, ICLR, TMLR, Journal of Computational Physics.",
+      "Designed neural surrogate models for PDEs, particle-based fluids, molecular dynamics, and point-cloud motion.",
+      "Built Transformer and graph-network architectures informed by numerical methods.",
     ],
   },
 ];
@@ -50,20 +49,14 @@ export const reviewerService = [
     title: "Conference Reviewing",
     venues: ["CVPR", "NeurIPS", "ICLR", "ICML"],
     description:
-      "Reviewed work across generative modeling, multimodal learning, vision-language systems, and scientific machine learning.",
+      "Reviewed work across generative modeling and scientific machine learning.",
   },
   {
     title: "Journal Reviewing",
     venues: ["TMLR", "TNNLS", "NMI"],
     description:
       "Provided technical reviews for machine learning and neural modeling submissions, with attention to reproducibility, evaluation, and system design.",
-  },
-  {
-    title: "Research Community",
-    venues: ["Ongoing"],
-    description:
-      "Contribute peer review across image generation, unified image-text modeling, neural operators, and physics-informed learning.",
-  },
+  }
 ];
 
 export const projects = [
@@ -85,7 +78,7 @@ export const projects = [
     image: "/images/mask_diff.gif",
     tags: ["Diffusion", "Multimodal AI", "CVPR 2025"],
     description:
-      "A unified image-text generation framework that combines discrete text diffusion with continuous image diffusion, turning a text-to-image model into a vision-language model through fine-tuning.",
+      "A unified image-text generation framework that combines discrete text diffusion with continuous image diffusion, turning a text-to-image model into a unified multimodal model through fine-tuning.",
     links: [
       { label: "Paper", href: "https://www.arxiv.org/abs/2501.00289" },
       { label: "Code", href: "https://github.com/zijieli-Jlee/Dual-Diffusion" },
@@ -97,7 +90,7 @@ export const projects = [
     image: "/images/FactFormer-Schematic.png",
     tags: ["Transformer", "PDE", "NeurIPS 2023"],
     description:
-      "An axial factorized attention scheme that improves Transformer scalability on multi-dimensional PDE surrogate modeling tasks.",
+      "An axial factorized attention scheme that improves Transformer scalability on multi-dimensional PDE surrogate modeling tasks, easily scaling to 64 x 64 x 64 on a single GPU.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2305.17560" },
       { label: "Code", href: "https://github.com/BaratiLab/FactFormer" },
@@ -109,7 +102,7 @@ export const projects = [
     image: "/images/diffusion_sample.gif",
     tags: ["Diffusion", "Fluid Simulation", "JCP"],
     description:
-      "A diffusion model for flow-field reconstruction that incorporates residual information into the reverse diffusion process.",
+      "A diffusion model for flow-field reconstruction that incorporates residual information into the reverse diffusion process, removes the need for paired data.",
     links: [
       {
         label: "Paper",
