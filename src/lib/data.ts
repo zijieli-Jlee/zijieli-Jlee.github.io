@@ -9,7 +9,7 @@ export const personalInfo = {
   cv: "/data/Zijie_CV_2026MAY.pdf",
   profilePicture: "/profile.jpg",
   heroDescription:
-    "I work on generative modeling for image generation at ByteDance Seed. My recent work explores unified text-image generation and understanding, with earlier research connecting numerical solvers, graph networks, and operator learning for physics prediction.",
+    "I work on generative modeling for image generation at ByteDance Seed. My recent work explores unified text-image generation and understanding, with earlier research connecting numerical solvers, graph networks, Transformer, and operator learning for physics prediction.",
 };
 
 export const workExperience = [
