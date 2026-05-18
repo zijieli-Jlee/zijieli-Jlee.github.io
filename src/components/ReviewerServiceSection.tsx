@@ -21,7 +21,7 @@ export default function ReviewerServiceSection() {
           </p>
         </MotionWrapper>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 gap-4">
           {reviewerService.map((service, index) => (
             <MotionWrapper key={service.title} delay={index * 0.12}>
               <GlassCard className="h-full p-5 transition-all duration-300">

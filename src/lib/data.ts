@@ -46,17 +46,11 @@ export const workExperience = [
 
 export const reviewerService = [
   {
-    title: "Conference Reviewing",
-    venues: ["CVPR", "NeurIPS", "ICLR", "ICML"],
+    title: "Conference and Journal Reviewing",
+    venues: ["CVPR", "NeurIPS", "ICLR", "ICML", "TMLR", "TNNLS", "NMI"],
     description:
       "Reviewed work across generative modeling and scientific machine learning.",
   },
-  {
-    title: "Journal Reviewing",
-    venues: ["TMLR", "TNNLS", "NMI"],
-    description:
-      "Provided technical reviews for machine learning and neural modeling submissions, with attention to reproducibility, evaluation, and system design.",
-  }
 ];
 
 export const projects = [
@@ -94,6 +88,18 @@ export const projects = [
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2305.17560" },
       { label: "Code", href: "https://github.com/BaratiLab/FactFormer" },
+    ],
+  },
+  {
+    title: "Prototype Memory GAN",
+    subtitle: "Memory-augmented few-shot image generation",
+    image: "/images/project_moca.png",
+    tags: ["Few-shot Generation", "GAN", "Memory"],
+    description:
+      "A memory-augmented GAN for few-shot image generation, where generator feature maps are modulated by attending to feature vectors stored in a memory bank.",
+    links: [
+      { label: "Paper", href: "https://openreview.net/pdf?id=lY0-7bj0Vfz" },
+      { label: "Code", href: "https://github.com/Crazy-Jack/MoCA_release" },
     ],
   },
   {
