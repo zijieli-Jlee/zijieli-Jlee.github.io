@@ -6,7 +6,7 @@ export const personalInfo = {
   github: "https://github.com/zijieli-Jlee/",
   linkedin: "https://www.linkedin.com/in/zijie-li-827976103/",
   scholar: "https://scholar.google.com/citations?hl=zh-CN&user=PRESuXcAAAAJ",
-  cv: "/data/Zijie_CV_2025_updated.pdf",
+  cv: "/data/Zijie_CV_2026MAY.pdf",
   profilePicture: "/profile.jpg",
   heroDescription:
     "I work on generative modeling for image generation, with a focus on building stronger visual generation systems with enhanced multimodal capabilities. My recent work explores unified text-image generation and understanding, with earlier research connecting numerical solvers, graph networks, and operator learning for physics prediction.",
@@ -55,53 +55,6 @@ export const education = [
       "Research at the intersection of numerical physics simulation and deep learning.",
       "Advised by Amir Barati Farimani in the Mechanical and AI Lab.",
     ],
-  },
-];
-
-export const skills = [
-  {
-    category: "Generative AI",
-    items: [
-      "Diffusion models",
-      "Image generation",
-      "Multimodal generation",
-      "Text-image modeling",
-      "Vision-language systems",
-    ],
-  },
-  {
-    category: "Modeling",
-    items: [
-      "Transformers",
-      "Graph neural networks",
-      "Operator learning",
-      "Axial/factorized attention",
-      "Few-shot generation",
-    ],
-  },
-  {
-    category: "Scientific ML",
-    items: [
-      "PDE surrogate modeling",
-      "Eulerian fluid simulation",
-      "Particle dynamics",
-      "Molecular dynamics",
-      "Flow reconstruction",
-    ],
-  },
-  {
-    category: "Engineering",
-    items: [
-      "PyTorch",
-      "Distributed training",
-      "Experiment design",
-      "Model evaluation",
-      "Research code release",
-    ],
-  },
-  {
-    category: "Languages",
-    items: ["Python", "C++", "MATLAB", "JavaScript", "HTML/CSS"],
   },
 ];
 
