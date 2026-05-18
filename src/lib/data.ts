@@ -136,38 +136,3 @@ export const projects = [
     ],
   },
 ];
-
-export const researchHighlights = [
-  {
-    name: "MMCORE: MultiModal COnnection with Representation Aligned Latent Embeddings",
-    issuer: "arXiv",
-    date: "2026",
-    type: "Preprint",
-    position: "First author",
-    href: "https://arxiv.org/abs/2604.19902",
-  },
-  {
-    name: "Dual Diffusion for Unified Image Generation and Understanding",
-    issuer: "CVPR",
-    date: "2025",
-    type: "Peer-reviewed publication",
-    position: "Equal contribution",
-    href: "https://www.arxiv.org/abs/2501.00289",
-  },
-  {
-    name: "Scalable Transformer for PDE Surrogate Modeling",
-    issuer: "NeurIPS",
-    date: "2023",
-    type: "Peer-reviewed publication",
-    position: "First author",
-    href: "https://arxiv.org/abs/2305.17560",
-  },
-  {
-    name: "Transformer for Partial Differential Equations' Operator Learning",
-    issuer: "TMLR",
-    date: "2023",
-    type: "Peer-reviewed publication",
-    position: "First author",
-    href: "https://openreview.net/forum?id=EPPqt3uERT&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)",
-  },
-];

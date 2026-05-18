@@ -4,6 +4,11 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+const navItems = ["experience", "projects", "service"];
+
+const getNavLabel = (item: string) =>
+  item === "service" ? "Service" : item.charAt(0).toUpperCase() + item.slice(1);
+
 export default function GlassHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -23,7 +28,7 @@ export default function GlassHeader() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "projects", "research", "service"].map(
+          {navItems.map(
             (item, index) => (
               <motion.a
                 key={item}
@@ -34,11 +39,7 @@ export default function GlassHeader() {
                 transition={{ duration: 0.2, delay: index * 0.1 }}
                 whileHover={{ y: -2 }}
               >
-                {item === "research"
-                  ? "Research"
-                  : item === "service"
-                    ? "Service"
-                    : item.charAt(0).toUpperCase() + item.slice(1)}
+                {getNavLabel(item)}
               </motion.a>
             )
           )}
@@ -70,7 +71,7 @@ export default function GlassHeader() {
             transition={{ duration: 0.3 }}
           >
             <nav className="flex flex-col space-y-4 text-sm font-medium">
-              {["experience", "projects", "research", "service"].map(
+              {navItems.map(
                 (item, index) => (
                   <motion.a
                     key={item}
@@ -81,11 +82,7 @@ export default function GlassHeader() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.2, delay: index * 0.1 }}
                   >
-                    {item === "research"
-                      ? "Research"
-                      : item === "service"
-                        ? "Service"
-                        : item.charAt(0).toUpperCase() + item.slice(1)}
+                    {getNavLabel(item)}
                   </motion.a>
                 )
               )}
