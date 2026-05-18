@@ -94,7 +94,7 @@ export const projects = [
     title: "Prototype Memory GAN",
     subtitle: "Memory-augmented few-shot image generation",
     image: "/images/project_moca.png",
-    tags: ["Few-shot Generation", "GAN", "Memory"],
+    tags: ["Few-shot Generation", "GAN", "Memory", "ICLR 2022"],
     description:
       "A memory-augmented GAN for few-shot image generation, where generator feature maps are modulated by attending to feature vectors stored in a memory bank.",
     links: [
