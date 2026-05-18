@@ -16,14 +16,9 @@ export default function ProjectsSection() {
     <section id="projects" className="py-12 relative">
       <div className="container max-w-5xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-3 text-center md:text-left">
+          <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
             Featured Projects
           </h2>
-          <p className="text-muted-foreground mb-8 text-center md:text-left max-w-3xl">
-            Selected work that is easiest to scan from an industry perspective:
-            problem, model family, result surface, and links to the paper or
-            code.
-          </p>
         </MotionWrapper>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

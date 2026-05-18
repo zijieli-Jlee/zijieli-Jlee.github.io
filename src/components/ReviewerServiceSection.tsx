@@ -12,13 +12,9 @@ export default function ReviewerServiceSection() {
     >
       <div className="container max-w-5xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-3 text-center md:text-left">
+          <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
             Reviewer Service
           </h2>
-          <p className="text-muted-foreground mb-8 text-center md:text-left max-w-3xl">
-            Peer review across generative AI, multimodal learning, vision, and
-            scientific machine learning venues.
-          </p>
         </MotionWrapper>
 
         <div className="grid grid-cols-1 gap-4">
