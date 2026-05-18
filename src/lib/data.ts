@@ -45,16 +45,24 @@ export const workExperience = [
   },
 ];
 
-export const education = [
+export const reviewerService = [
   {
-    institution: "Carnegie Mellon University",
-    location: "Pittsburgh, PA",
-    degree: "PhD, Mechanical Engineering",
-    period: "2019 - 2025",
-    achievements: [
-      "Research at the intersection of numerical physics simulation and deep learning.",
-      "Advised by Amir Barati Farimani in the Mechanical and AI Lab.",
-    ],
+    title: "Conference Reviewing",
+    venues: ["CVPR", "NeurIPS", "ICLR", "ICML"],
+    description:
+      "Reviewed work across generative modeling, multimodal learning, vision-language systems, and scientific machine learning.",
+  },
+  {
+    title: "Journal Reviewing",
+    venues: ["TMLR", "TNNLS", "NMI"],
+    description:
+      "Provided technical reviews for machine learning and neural modeling submissions, with attention to reproducibility, evaluation, and system design.",
+  },
+  {
+    title: "Research Community",
+    venues: ["Ongoing"],
+    description:
+      "Contribute peer review across image generation, unified image-text modeling, neural operators, and physics-informed learning.",
   },
 ];
 
@@ -162,13 +170,5 @@ export const researchHighlights = [
     type: "Peer-reviewed publication",
     position: "First author",
     href: "https://openreview.net/forum?id=EPPqt3uERT&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)",
-  },
-  {
-    name: "Journal and conference reviewing",
-    issuer: "NMI, TNNLS, TMLR, NeurIPS, ICLR, ICML, CVPR",
-    date: "Ongoing",
-    type: "Service",
-    position: "Reviewer",
-    href: "https://scholar.google.com/citations?hl=zh-CN&user=PRESuXcAAAAJ",
   },
 ];

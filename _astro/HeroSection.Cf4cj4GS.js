@@ -1,4 +1,4 @@
-import{j as e,m as t,p as a}from"./proxy.C6df0eNQ.js";import{B as n}from"./button.DnjiYYDH.js";import{F as l}from"./file-text.OLp24ORY.js";import{c as i}from"./createLucideIcon.DZomdzzs.js";import"./index.BnmvxsyM.js";import"./utils.DDt1maD9.js";/**
+import{j as e,m as t,p as a}from"./proxy.LM8VPa1B.js";import{B as n}from"./button.CIboazzU.js";import{F as l}from"./file-text.OLp24ORY.js";import{c as i}from"./createLucideIcon.DZomdzzs.js";import"./index.BnmvxsyM.js";import"./utils.DDt1maD9.js";/**
  * @license lucide-react v0.483.0 - ISC
  *
  * This source code is licensed under the ISC license.
