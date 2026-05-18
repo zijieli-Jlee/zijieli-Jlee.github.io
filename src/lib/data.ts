@@ -62,7 +62,7 @@ export const projects = [
   {
     title: "MMCORE",
     subtitle: "Multimodal connection with aligned visual embeddings",
-    image: "/images/mmcore-visual.svg",
+    image: "/images/mmcore-main-teaser-card.jpg",
     tags: ["Multimodal Generation", "Image Editing", "2026"],
     description:
       "A unified framework for multimodal image generation and editing that transfers VLM understanding into diffusion-based visual synthesis through representation-aligned latent embeddings.",
